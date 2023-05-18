@@ -17,6 +17,10 @@
     font-family: 'Comic Neue','Crimson Text', Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: var(--beige);
+}
+
 
 .img-logo{
     height: 70px;
@@ -101,4 +105,11 @@
 .info-post-hero{
     background-color: var(--beige);
     padding: 0rem 2rem 0rem 2rem;
+}
+
+footer{
+    background-color: var(--azulClaro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
