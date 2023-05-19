@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bellota</title>
         <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="assets/mediaqueries.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap">
 
@@ -17,8 +18,9 @@
                     <img src="assets/bellotaContorno.png" alt="una bellota" class="img-logo">
                     <span>Bellota <br> Shop</span>
                 </div>
-                
-                <ul>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle" checked>
+                <label for="menu-toggle" class="menu-icon"></label>
+                <ul class="menu">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Productos</a></li>
                     <li><a href="#">Servicios</a></li>
@@ -62,13 +64,28 @@
                         <h3>Arboles</h3>
                         <p>Lorem ipsum dolor  Ab in quasi at maiores temporibus necessitatibus eaque veritatis otam corrupti?</p>
                     </div>
-                    <!--<div>
+                    <div>
                         <img src="assets/arbol plantado.png" alt="" class="img-cards">
                         <h3>Nos ocupamos de todo!</h3>
                         <p> amet consectetur rerum dolor eum vero dicta ei ducimus sint vitae et.</p>
-                    </div> -->
+                    </div>
                 </div>
 
+            </section>
+            <section class="contact-section">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+            
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+            
+                    <input type="submit" value="Enviar">
+                </form>
             </section>
         </main>
         <footer>
